@@ -1,0 +1,31 @@
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border: none;
+    max-width: 25%; /* Defina o tamanho máximo para cada coluna */
+    word-wrap: break-word; /* Permite que o texto quebre em várias linhas */
+    position: relative; /* Adiciona posição relativa para permitir posicionamento absoluto */
+}
+
+.year {
+    font-weight: bold;
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.ellipse {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 2px;
+}
