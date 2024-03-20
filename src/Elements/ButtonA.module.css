@@ -1,0 +1,19 @@
+.btn{
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 83px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+.btn:hover{
+    color: aliceblue;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
