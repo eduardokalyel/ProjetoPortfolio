@@ -24,3 +24,9 @@
     color: aliceblue !important;
     text-decoration: none;
 }
+
+.footer li:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
